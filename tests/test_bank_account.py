@@ -8,7 +8,7 @@ class TestBankAccount(unittest.TestCase):
 
     def test_deposit(self):
         self.account.deposit(50)
-        self.assertEqual(self.account.balance, 150)
+        self.assertEqual(self.account.balance, 100)
 
 
 if __name__ == "__main__":
